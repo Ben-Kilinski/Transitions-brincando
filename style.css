@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+#div1 {
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    transition: 8s;
+}
+#div1:hover {
+    background-color: yellow;
+}
+
+#div2 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+#div2:hover {
+    background-color: red;
+}
