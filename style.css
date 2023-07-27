@@ -1,6 +1,10 @@
 body{
     background-color: black;
-    color: white;
+    color: pink;
+    transition: 5s;
+}
+body:hover{
+    background-color: grey;
 }
 #div1 {
     height: 500px;
@@ -16,7 +20,100 @@ body{
     height: 50px;
     width: 50px;
     background-color: white;
+    transition: 4s
 }
 #div2:hover {
+    background-color: green;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+#div3 {
+    background-color: blue;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    transition: 8s;
+}
+#div3:hover{
+    background-color: white;
+    
+}
+
+#div4 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    right: 100px;
+    top:100px;
+    position: absolute;
+    transition: 3s;
+
+}
+#div4:hover {
+   top: 500px;
+   position: absolute;
+
+}
+
+#div5 {
+    height: 30vh;
+    width: 30vw;
+    background-color: skyblue;
+    
+}
+
+#sec5 {
+    height: 9vh;
+    width: 9vw;
+    background-color: tomato;
+    transition: 2s;
+    position: absolute;
+}
+#sec5:hover{
+    height: 30vh;
+    width: 30vw;
+}
+
+#div6 {
+    height: 20vh;
+    width: 20vw;
+    background-color:chartreuse;
+    position: fixed;
+    top:40px;
+    right: 300px;
+}
+
+#div7 {
+    height: 30vh;
+    width: 30vw;
+    background-color: coral;
+    position: relative;
+}
+
+#sec7 {
+    height: 9vh;
+    width: 9vw;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0%;
+    }
+#sec7:hover {
+    height: 30vh;
+    width: 30vw;
+    border-radius: 50%;
+    transition: 3s;
     background-color: red;
 }
+
+#div8 {
+    height: 30vh;
+    width: 30vw;
+    background-color: white;
+}
+#div8:hover {
+    transition:5s;
+    background-color: all;
+}
+
